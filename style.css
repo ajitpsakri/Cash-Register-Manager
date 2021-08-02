@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Josefin+Sans&family=Lato&family=Open+Sans&family=Raleway&family=Rock+Salt&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color:#BFDBFE;
+}
+main{
+    /* margin-top: 0.5rem; */
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 80px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+button:hover{
+    background-color: #90b3dd;
+    color: white;
+    transition: 0.5s;
+    font-weight: bolder;
+    box-shadow: 3px 3px black;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    width: 20rem;
+    height: 1.5rem;
+}
+table{
+   margin: auto;
+   border:1px solid black;
+   border-collapse: collapse; 
+   border-radius: 30px;   
+}
+td, th{
+    padding: 0.5rem 0.7rem;
+}
+
